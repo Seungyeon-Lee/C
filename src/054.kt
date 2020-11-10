@@ -1,6 +1,6 @@
 // 054 생성자(Constructor)와 초기화(Initializer) 블록
 
-package ex_package
+package ex_constructor
 
 // constructor 키워드는 생략하여도 상관 없다.
 class Person constructor(name: String, age: Int)

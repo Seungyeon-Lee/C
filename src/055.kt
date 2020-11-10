@@ -1,5 +1,7 @@
 // 055 init 블록 나누어 쓰기
 
+package ex_init_blocks
+
 class Size(width: Int, height: Int)
 {
     val width = width

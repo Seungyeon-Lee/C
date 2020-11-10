@@ -1,5 +1,7 @@
 // 052 멤버 함수(Member Function)
 
+package ex_member_function
+
 class Building // 프로퍼티 + 멤버 함수 = 멤버(Member)
 {
     // 프로퍼티

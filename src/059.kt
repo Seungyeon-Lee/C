@@ -1,5 +1,7 @@
 // 059 연산자 오버로딩(Operator Overloading)
 
+package ex_operator_overloading
+
 class Point(var x: Int = 0, var y: Int = 0)
 {
     // operator는 Point의 인스턴스 간에 연산자를 사용했을 때 해당 멤버 함수를 대신 호출하라는 뜻이다.

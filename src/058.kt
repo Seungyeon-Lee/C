@@ -1,6 +1,6 @@
 // 058 프로퍼티와 Getter/Setter
 
-package ex_func_in_another_package
+package ex_property_getter_setter
 
 class Person
 {

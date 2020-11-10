@@ -1,6 +1,8 @@
 // 060 번호 붙은 접근 연산자 (Indexed Access Operator) []
 
-class Person2(var name: String, var birthday: String)
+package ex_indexed_access_operator
+
+class Person(var name: String, var birthday: String)
 {
     operator fun get(position: Int): String
     {
@@ -23,7 +25,7 @@ class Person2(var name: String, var birthday: String)
 
 fun main(args: Array<String>)
 {
-    val person = Person2("Kotlin", "2016-02-15")
+    val person = Person("Kotlin", "2016-02-15")
     println(person[0]) // person.get(0)과 동일하다.
     println(person[1])
     println(person[-1])
