@@ -6,8 +6,8 @@ package ex_inheritance
 open class Person(val name: String, val age: Int) // 클래스의 상속을 허용하려면 클래스 정의부 앞에 open 키워드를 붙여주어야 한다.
 // 코틀린은 자바와는 달리, 클래스 선언이 기본적으로 final로 되어 있다.
 
-// Person2 클래스의 서브클래스(Subclass) 또는 서브 타입
-class Student(name: String, age: Int, val id: Int) : Person(name, age) // Person2 클래스를 상속한다, 자바처럼 다중 상속은 불가하며, 하나의 클래스만 상속 가능하다.
+// Person 클래스의 서브클래스(Subclass) 또는 서브 타입
+class Student(name: String, age: Int, val id: Int) : Person(name, age) // Person 클래스를 상속한다, 자바처럼 다중 상속은 불가하며, 하나의 클래스만 상속 가능하다.
 
 fun main(args: Array<String>)
 {
