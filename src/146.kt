@@ -1,4 +1,4 @@
-// Sequence 인터페이스 살펴보기
+// 146 Sequence 인터페이스 살펴보기
 
 package ex_sequence_interface
 
